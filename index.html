@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+<div class="w3-row w3-padding w3-black">
+  <div class="w3-col s3">
+    <a href="#" class="w3-button w3-block w3-black">HOME</a>
+  </div>
+  <div class="w3-col s3">
+    <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+  </div>
+  <div class="w3-col s3">
+    <a href="#menu" class="w3-button w3-block w3-black">CLOTHING</a>
+  </div>
+  <div class="w3-col s3">
+    <a href="#where" class="w3-button w3-block w3-black">TWO-PIECES</a>
+  </div>
+</div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+  <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+</div>
+<div class="w3-display-bottomright w3-center w3-padding-large">
+  <span class="w3-text-white">15 Adr street, 5015</span>
+</div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+<!-- About Container -->
+<div class="w3-container" id="about">
+<div class="w3-content" style="max-width:700px">
+  <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE FASHION</span></h5>
+  <p>Shopping online can mean wading through endless Google search results for basics like fanny packs,chunky sneakers,or jeans.</p>
+  <p>Ahead,I have created a definitive best online shopping destinations to hepl you narrow down the choices.Sit back,relax and scroll!</p>
+
+  <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"One`s style of behaviour and conduct also reflect one`s fashion sense.""</i></p>
+      <p>Designer and Owner: Kanyelisa Ndonga</p>
+    </div>
+    <img src="pic2.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 9am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+  </div>
+  </div>
+
+  <!-- Menu Container -->
+  <div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE CLOTHING</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">The concept of Fashion is never static;it keeps changing over time.</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">The youth are the ones who follow and keep uop with it elaborately.</div>
+      </a>
+    </div>
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+        <h5>There is a store on this list for just about everyone</h5>
+        <p class="w3-text-grey"></p>Fashion is a non-verbal way of communication that conveys a lot about the person`s personality,background and style.<br>
+
+        <h5></h5>
+        <p class="w3-text-grey"</p><br>
+        <h5></h5>
+        <p class="w3-text-grey"></p>Fashion is now within the reach pf the common man<br>
+        <h5></h5>
+        <p class="w3-text-grey"></p>If you are not online shopping between Zoom meetings,then you are working too hard. Break up your daily routine goint to the splazacular Linguee Fashion Website<br>
+        <h5></h5>
+        <p class="w3-text-grey"></p>
+      </div>
+
+      <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+        <h5></h5>
+        <p class="w3-text-grey"></p><br>
+
+        <h5></h5>
+        <p class="w3-text-grey"></p><br>
+        <h5></h5>
+            <p class="w3-text-grey"></p><br>
+
+            <h5></h5>
+            <p class="w3-text-grey"></p><br>
+
+            <h5></h5>
+            <p class="w3-text-grey"></p>
+          </div>
+          <img src="pic3.jpeg" style="width:100%;max-width:1000px;margin-top:32px;">
+        </div>
+        </div>
+        <!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-content" style="max-width:700px">
+  <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">TWO-PIECES</span></h5>
+  <p>Find us at some address at some place.</p>
+  <img src="pic4.jpeg" class="w3-image" style="width:100%">
+  <p><span class="w3-tag">FYI!</span> We offer full-service for any event, large or small. We understand your needs and we will offer our services to satisfy the biggerst criteria of them all, both look and style.</p>
+  <p><strong>Reserve:</strong> Ask for today's special or just send us a message:</p>
+  <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="amount of clothing" required name="People"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+<p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+</form>
+</div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<p>Developed by [Insert your Name]</p>
+</footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+var i, x, tablinks;
+x = document.getElementsByClassName("menu");
+for (i = 0; i < x.length; i++) {
+  x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < x.length; i++) {
+  tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+}
+document.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
